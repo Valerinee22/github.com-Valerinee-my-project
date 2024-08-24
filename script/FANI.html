@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TropTailsIndo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFDD9;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #FFFDD9;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+        .tombol-dukungan {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .konten-utama {
+            position: relative;
+            text-align: center;
+        }
+        .gambar-utama {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        .teks-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            text-align: left;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .teks-overlay h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .teks-overlay h3 {
+            font-size: 1.8em;
+            margin: 0;
+        }
+        .tombol-cta {
+            background-color: #ffa62b;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .kategori {
+            padding: 20px;
+            background-color: white;
+        }
+        .judul-kategori {
+            text-align: center;
+            color: #4a4a4a;
+        }
+        .grid-kategori {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .item-kategori {
+            text-align: center;
+        }
+        .item-kategori img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .item-kategori p {
+            margin-top: 5px;
+            color: #ffa62b;
+        }
+
+        .kebiasaan-makan {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ddc992;
+            background-image: url('images/apayo.jpg');
+            background-repeat: repeat;
+            background-size: 100px 100px;
+        }
+
+        .item-kebiasaan {
+            text-align: center;
+        }
+        .item-kebiasaan img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .item-kebiasaan p {
+            margin-top: 14px;
+            color: #090909;
+        }
+        footer {
+            background-color: #4a4a4a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .ikon-sosial {
+            margin-top: 10px;
+        }
+        .ikon-sosial img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo ada BG.jpg" alt="Logo TropTailsIndo">
+        </div>
+        <button class="tombol-dukungan">Support Us</button>
+    </header>
+    
+    <div class="konten-utama">
+        <img src="Harimau Jelek.jpg" alt="Harimau Sumatera" class="gambar-utama">
+        <div class="teks-overlay">
+            <h2>Get To Know Him</h2>
+            <h3>Sumatran Tiger</h3>
+            <button class="tombol-cta" onclick="window.location.href='https://youtu.be/0_7dTrhBXfs?si=RsH-LWQo_y1mQa9d ';">miaww.. ▶️</button>
+        </div>
+    </div>
+
+    <div class="kategori">
+        <h2 class="judul-kategori">Enrich Your Knowledge at TropTails.Indo</h2>
+        <p class="judul-kategori">Find your adventure below:</p>
+        <div class="grid-kategori">
+            <div class="item-kategori">
+                <img src="Burung gila.jpg" alt="Jalak Bali">
+                <button class="tombol-cta" onclick="window.location.href='https://www.youtube.com/watch?v=XNL1lYtrDWY ';">Jalak Bali</button>
+            </div>
+            <div class="item-kategori">
+                <img src="Kembaran ku.jpg" alt="Orangutan">
+                <button class="tombol-cta" onclick="window.location.href='https://youtu.be/0fts6x_EE_E?si=tD0fjQOD7qZdnHKb  ';">Orangutan</button>
+            </div>
+            <div class="item-kategori">
+                <img src="Ieuh.jpg" alt="Lebah">
+                <button class="tombol-cta" onclick="window.location.href='https://youtu.be/YoPRi1y-aD0?si=Lpg2rjCbiadchZVJ  ';">Ulat Sagu</button>
+            </div>
+            <div class="item-kategori">
+                <img src="Kadal Gede.jpg" alt="Komodo">
+                <button class="tombol-cta" onclick="window.location.href='https://youtu.be/C20t4OJDpVA?si=WG2Y6RjhxZl4cdhf  ';">Komodo</button>
+            </div>
+        </div>
+    </div>
+    <div class="kebiasaan-makan">
+
+        <div class="item-kebiasaan">
+            <img src="harimau makan.jpg" alt="Karnivora">
+            <p>Karnivora</p>
+        </div>
+        <div class="item-kebiasaan">
+            <img src="kejelekan hakiki.jpg" alt="Herbivora">
+            <p>Herbivora</p>
+        </div>
+        <div class="item-kebiasaan">
+            <img src="huluq.jpg" alt="Omnivora">
+            <p>Omnivora</p>
+        </div>
+        <div class="item-kebiasaan">
+            <img src="jelek buwangettt.jpg" alt="Insektivora">
+            <p>Insektivora</p>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Follow Us</h3>
+        <div class="ikon-sosial">
+            <img src="fb.jpg" alt="Facebook">
+            <img src="tw.jpg" alt="Twitter">
+            <img src="ig.jpg" alt="Instagram">
+            <img src="ty.jpg" alt="YouTube">
+            <img src="tt.jpg" alt="TikTok">
+        </div>
+    </footer>
+</body>
+</html>

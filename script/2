@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TropTails.Indo Adventure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .category {
+            text-align: center;
+            width: 22%;
+        }
+        .category img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .category-name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .species-name {
+            color: #FF9800;
+        }
+        .animal-types {
+            display: flex;
+            justify-content: space-around;
+            background-color: #FFF;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .animal-type {
+            text-align: center;
+        }
+        .animal-type img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enrich Your Knowledge at TropTails.Indo</h1>
+    <p style="text-align: center;">Find your adventure below:</p>
+
+    <div class="categories">
+        <div class="category">
+            <img src="jalak_bali.jpg" alt="Jalak Bali">
+            <div class="category-name">Birds</div>
+            <div class="species-name">Jalak Bali</div>
+        </div>
+        <div class="category">
+            <img src="orangutan.jpg" alt="Orangutan">
+            <div class="category-name">Animals</div>
+            <div class="species-name">Orangutan</div>
+        </div>
+        <div class="category">
+            <img src="ulat_sagu.jpg" alt="Ulat Sagu">
+            <div class="category-name">Insects</div>
+            <div class="species-name">Ulat Sagu</div>
+        </div>
+        <div class="category">
+            <img src="komodo.jpg" alt="Komodo">
+            <div class="category-name">Reptiles</div>
+            <div class="species-name">Komodo</div>
+        </div>
+    </div>
+
+    <div class="animal-types">
+        <div class="animal-type">
+            <img src="carnivore.jpg" alt="Carnivore">
+            <div>Carnivore</div>
+        </div>
+        <div class="animal-type">
+            <img src="herbivore.jpg" alt="Herbivore">
+            <div>Herbivore</div>
+        </div>
+        <div class="animal-type">
+            <img src="omnivore.jpg" alt="Omnivore">
+            <div>Omnivore</div>
+        </div>
+        <div class="animal-type">
+            <img src="insectivore.jpg" alt="Insectivore">
+            <div>Insectivore</div>
+        </div>
+    </div>
+</body>
+</html>
